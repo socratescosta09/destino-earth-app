@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.main {
+  display: flex;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 90%;
+  height: 110vh;
+
+  font-family: "Inter";
+  font-style: normal;
+  
+
+  color: var(--primary-text);
+
+  background-color: var(--primary-bg);
+}
+
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+
+  background-color: var(--primary-bg);
+}
+
+.header h2 {
+  color: var(--primary-text);    
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.header .header-bg {
+  width: 90%;
+  height: 2rem;
+  background: radial-gradient(
+    99.3% 362248.93% at 100% 50.05%,
+    #9b57de 0%,
+    rgba(155, 87, 222, 0) 100%
+  );
+  box-shadow: 0px 3px 0.4px rgba(0, 0, 0, 0.25);
+}
+
+.header .icon {
+  display: flex;
+  position: absolute;
+  top: 36px;
+  right: -3px;
+  padding-bottom: 5px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.container-img {
+  display: flex;
+  height: 100vh;
+}
+
+.img-principal {
+  width: 100%;
+  margin-top: 28px;;
+}
+
+.img-principal img {
+  width: 85%;
+  height: 60vh;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.img-principal img:hover{
+  box-shadow: rgba(33, 6, 44, 0.2) 0px 0px 0px 6px, rgba(6, 24, 44, 0.65) 0px 6px 8px -3px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.img-principal > p {
+  width: 85%;
+  height: 185px;
+  margin-top: 1rem;
+
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 29px;
+  text-align: justify;
+}
+
+.flex_row-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.thumbnail-img img {
+  width: 100%;
+  
+  height: 10rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 3px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.thumbnail img:hover {
+  box-shadow: rgba(33, 6, 44, 0.2) 0px 0px 0px 6px, rgba(6, 24, 44, 0.65) 0px 6px 8px -3px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.clicked {
+  border: 5px solid black;
+}

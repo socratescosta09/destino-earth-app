@@ -1,0 +1,57 @@
+.content-post {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 502px;
+  margin: auto;
+
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  text-align: center;
+  
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  
+}
+
+.post__perfil {
+  display: flex;
+  flex-direction: column;  
+  width: 50%;
+  height: 500px;
+
+  padding-top: 140px;
+
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.post__perfil img{
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+  border: 5px solid #FFFFFF;
+
+  background: #D9D9D9;
+  
+}
+
+#post-h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 25px;
+  margin-bottom: 80px;
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
+  height: 43px;  
+}
